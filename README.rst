@@ -10,6 +10,7 @@ Installation
 ############
 
 .. code:: bash
+
     git clone --recursive https://github.com/wichtounet/docker-dll.git
     docker build -t wichtounet/dll .
 
@@ -20,6 +21,7 @@ To use the library, you must create a dll.conf file and mount the folder where
 the file in the /dll/data volume. For instance:
 
 .. code:: bash
+
     docker run -v $(pwd)/rbm_mnist/:/dll/data/ wichtounet/dll
 
 Several examples are available in this repository
