@@ -11,8 +11,7 @@ Installation
 
 .. code:: bash
 
-    git clone --recursive https://github.com/wichtounet/docker-dll.git
-    docker build -t wichtounet/dll .
+    docker pull wichtounet/docker-dll
 
 Usage
 #####
@@ -22,6 +21,6 @@ the file in the /dll/data volume. For instance:
 
 .. code:: bash
 
-    docker run -v $(pwd)/rbm_mnist/:/dll/data/ wichtounet/dll
+    docker run -v $(pwd)/rbm_mnist/:/dll/data/ wichtounet/docker-dll
 
 Several examples are available in this repository
