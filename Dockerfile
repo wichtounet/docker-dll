@@ -21,4 +21,4 @@ ENV CXX g++
 ENV LD g++
 
 WORKDIR /dll/data
-CMD dllp dll.conf train
+CMD dllp dll.conf auto
